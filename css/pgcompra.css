@@ -1,0 +1,465 @@
+/*font importing*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* reseting css rules */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+} 
+a{
+    color: black;
+}
+
+:root {
+    --orange: #f78b00;
+    --blue: #00285f;
+    --gray: black;
+}
+
+html,
+body{
+    width: auto;
+    overflow:visible;
+    background-color: #e8f1f2;
+}
+
+header{
+    width:100%;
+    height: 100%;
+    background: #e8f1f2;
+}
+
+.content{
+    max-width:1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.brand {
+    font-size: 36px;
+    color: white;
+    cursor:pointer;
+    padding-bottom:110px ;
+}
+
+nav ul{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+nav ul li {
+    list-style:none;
+    padding:10px;
+    cursor:pointer;
+    
+}
+
+nav ul li a {
+   color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color: #2c8104;
+}
+
+nav ul button{
+    border: 1px solid var (--bluex);
+    background-color: #009e2a;
+    padding: 8px 40px;
+    cursor:pointer;
+    margin-left: 30px;
+    color: white;
+    font-weight:bold;
+    border-radius: 42px;
+    font-size: 12px;
+}
+
+nav ul button:hover{
+    transition: background, color 0.6s;
+    background: #017a21;
+    color:white;
+    
+}
+
+.content .header-block{
+    max-width: 1000px;
+    min-width:  300px;
+    height: 450px;
+    background: #006494;
+    border-radius: 8px;
+    box-shadow:1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position:relative;
+    z-index:10px;
+    padding:10px;
+} 
+
+.header-block img{
+    width:39%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.header-block text{
+    position:absolute;
+    bottom:30%;
+    left:15%;
+}
+
+.header-block .text h2{
+    color:white;
+    margin: bottom 20px;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.header-block .text p{
+    max-width: 280px;
+    color:white;
+    text-align:right;
+    transform: translateX(-20px);
+    transition:transform 0.4s;
+}
+ produto catalogo 
+
+section .catalogo{
+    width:100%;
+    padding:100px;
+}
+
+section .filter-card{
+    width: 980px;
+    height:150px;
+    background: var (--gray);
+    border-radius:8px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center; 
+}
+
+.search-input{
+    width: 700px;
+    height:50px;
+    border:none;
+    border-radius: 42px;
+    text-indent: 10px;
+    background-color: #006494;
+}
+
+.search-button{
+    width: 150px;
+    height: 50px;
+    border:none;
+    background: var(--blue);
+    color:black;
+    cursor:pointer;
+    font-size: 1.1em;
+    transition: 0.2 ease;
+}
+
+.search-button:hover{
+    background: #dedede;    
+    color: var(--blue);
+}
+
+.title-wrapper-catalog{
+    margin-top:200px;
+    padding-bottom:20px;
+}
+
+section .card-wrapper{
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    grid-gap: 30px;
+    padding-top:50px;
+}
+
+section .card-item{
+    width: 1900px;
+    height: 400px;
+    background: var(--gray);
+    border-radius:8px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content: space-around;
+    margin-top:40px ;
+    
+}
+
+.card-content{
+    height:40%;
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    justify-content: space-around;  
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+.card-item img{
+    width:25%;
+
+}
+
+.card-item h1{
+    align-items: right;
+    vertical-align: bottom;
+
+}
+
+.card-item p{
+    width: 90%;
+    font-style:italic;
+    font-size: 20px;
+    color:00000070;
+    text-align: right;
+    vertical-align: auto;
+    background-image: url=("images/carrier.png");
+    flex-direction:column;
+
+}
+
+.card-item button{
+    width:10%;
+    padding:15px 0px;
+    border: none;
+    background: var(--blue);
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font: size 1.1em;
+    cursor:pointer;
+    transition:0.3s ease;
+    margin-bottom:10px;
+}
+
+.card-item button:hover{
+    background: #dedede;
+    color:var(--blue);
+}
+*/
+/* about */
+
+.about{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:50px 10px;
+}
+
+.about-content{
+    max-width: 1000px;
+    min-width: 300px;
+    height:600px;
+    background: #006494;
+    margin: 0auto;
+    border-radius: 48px;
+    z-index:10;
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: block;
+    width: 25%;
+    min-width: 300px;
+    height: 100%;
+    z-index:auto;
+    border-radius: 48px;
+    margin-right: 110px;
+}
+
+.buttonn{
+    
+        border: 1px solid var (--bluex);
+        background-color: #009e2a;
+        padding: 8px 40px;
+        cursor:pointer;
+        margin-left: 30px;
+        color: white;
+        font-weight:bold;
+        border-radius: 42px;
+        font-size: 12px;
+    }
+.buttonn:hover{
+        transition: background, color 0.6s;
+        background: #017a21;
+        color:white;
+   color: #00285f;
+}
+#botao {
+background: #00285f;
+color: #ededed;
+border-color: rgb(47, 0, 255);
+height: 50px;
+width: 100px;
+text-shadow: none;
+float: right;
+justify-content: space-around;
+
+}
+#botao:hover{
+    transition: background, color 0.6s;
+    background: #017a21;
+    color:white;
+color: #00285f;
+}
+
+#titulo{
+  font-size:19px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#vl{
+    color: #009e2a;
+    font-size:19px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+#party{
+    color: #44a9e4;
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#party2{
+    color: #ac237e;
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* features */
+.feature{
+    width: 100%;
+    height: 100%;
+    background:#e8f1f2;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:50px 0px;
+}
+
+.title-wrapper-features{
+    padding: 20px 0px;
+}
+
+.feature-card-block{
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background:white;
+    margin: 0auto;
+    border-radius:8px;
+    z-index:  10;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-gap:30px;
+}
+
+.feature-card-item{
+    max-width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dedede3b;
+    border-radius: 4px;
+}
+
+.feature-text-content{
+    max-width: 60%;
+    margin: 5px;
+}
+
+.feature-card-item img{
+    width: 64px;
+    height: 64px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 250px;
+}
+
+footer .main{
+    width: 100%;
+    height: 200px;
+    background: var(--orange);
+    padding: 20px 10px;
+}
+
+.footer-links{
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-company, .footer-rental, .footer-contact, .footer-social{
+    color:white;
+    height: 100%;
+    min-height: 100px;
+}
+
+.footer-links h4{
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    margin-bottom: 8px;
+}
+
+
+
+.main footer-social{
+    width: 32px;
+    height: 32px;
+}
+
+footer .last{
+    width: 100%;
+    height: 50px;
+    background: var(--blue);
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.bin{
+  
+    margin: 1px 10px 10px;
+}

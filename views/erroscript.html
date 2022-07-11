@@ -1,0 +1,49 @@
+<center><br><br><br><br><br>Error code JavaScript...<br>nodeJs possible error for font-end.</center>
+<br>
+<br>
+<center>
+
+    <button><a href="/">CLIQUE AQUI PARA VOLTAR.</a></button>
+    
+    </center>
+<br>
+<br>
+<br>
+<a style="color: #ff0000;">
+    /node_modules\@firebase\app\dist\index.node.cjs.js:366<br>
+                throw ERROR_FACTORY.create("no-app" /* NO_APP */, { appName: name });<br>
+                ^<br>
+    <br>
+    FirebaseError: Firebase: No Firebase App '[DEFAULT]' has been created - call Firebase App.initializeApp() (app/no-app).<br>
+        at app (D:\Projetos\cadeiragamer\node_modules\@firebase\app\dist\index.node.cjs.js:366:33)<br>
+        at Object.serviceNamespace [as database] (D:\Projetos\cadeiragamer\node_modules\@firebase\app\dist\index.node.cjs.js:416:51)<br>
+        at Object.<anonymous> (D:\Projetos\cadeiragamer\src\index.js:12:22)<br>
+        at Module._compile (node:internal/modules/cjs/loader:1105:14)<br>
+        at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)<br>
+        at Module.load (node:internal/modules/cjs/loader:981:32)<br>
+        at Function.Module._load (node:internal/modules/cjs/loader:822:12)<br>
+        at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)<br>
+        at node:internal/main/run_main_module:17:47 {<br>
+      code: 'app/no-app',<br>
+      customData: { appName: '[DEFAULT]' }<br>
+    }<br>
+    <br>
+    \node_modules\@firebase\database\dist\index.node.cjs.js:10952<br>
+        throw new Error(errorPrefix +<br>
+        ^<br>
+        <br>
+Error: set failed: value argument contains a function in property 'Database.Gamer.Compras.users.user_id' with contents = function(req, res, next) {<br>
+    app.handle(req, res, next);<br>
+  }<br>
+    at validateFirebaseData (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:10952:15)<br>
+    at D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:11000:13<br>
+    at each (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:522:13)<br>
+    at validateFirebaseData (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:10983:9)<br>
+    at validateFirebaseDataArg (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:10941:5)<br>
+    at set (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:13207:5)<br>
+    at Reference.set (D:\Projetos\cadeiragamer\node_modules\@firebase\database\dist\index.node.cjs.js:14948:22)<br>
+    at Object.<anonymous> (D:\Projetos\cadeiragamer\src\index.js:19:40)<br>
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)<br>
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)<br>
+</a>
+
